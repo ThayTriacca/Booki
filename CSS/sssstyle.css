@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-    padding: 30px;
+   margin: 10px;
 }
 /* main */
 .content{
@@ -307,7 +307,7 @@ nav ul {
 }
 
 .roominfo{
-    padding: 0 20px;
+    padding: 0 10px;
     text-align: start;
 }
 
@@ -337,8 +337,8 @@ nav ul {
 }
 
 .room-img-pop {
-    width: 300px;
-    height: 150px;
+    width: 240px;
+    height: 180px;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
 }
@@ -433,6 +433,7 @@ footer{
     align-items: flex-start;
     align-content: center;
     margin-top: 50px;
+    padding: 15px;
 }
 .title{font-weight: bold;}
  /* Tablet*/
@@ -443,12 +444,12 @@ footer{
 
     .popular{
         order: -1;
-        width: 100%;
+        width: 90%;
         margin-left: 0px;
     }
 
     .accomodations{
-        width: 100%;
+        width: 90%;
         margin-top: 25px;
         margin-bottom: 25px;
     }
@@ -458,9 +459,17 @@ footer{
         flex-wrap: wrap;
         height: auto;
     }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding: 15px;
+    }
  }
 /*Mobile*/
 @media only screen and (max-width: 768px) {
+
     .nav-menu-container {
         flex-direction: column;
         justify-content: center;
@@ -475,7 +484,7 @@ footer{
         width: fit-content;
         height: fit-content;
     }
-    .accomodationandpopular, .accbot, .acctop, .filters-container {
+    .accomodationandpopular, .acctop, .filters-container {
       flex-direction: column; 
       height: auto;
       margin-right: auto;
@@ -483,29 +492,40 @@ footer{
     }
 
     .accomodations{
-        margin-left: -30px;
         height: auto;
-        width: 90%;
+        width: fit-content;
+    }
+
+    .columnitems{
+        width: 350px;
     }
     .popular{
-        margin-left: -30px;
+        margin-left: 0px;
         margin-bottom: 20px;
-        width: 90%;
-        height: auto;
+        width: fit-content;
         order:-1;
+    }
+
+    .room-img-pop {
+        width: 225px;
+        height: 185px;
+        object-fit: cover;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .pop-card-width {
+        width: 355px;
     }
 
     .activities, .activities-main-title, .activities-pictures{
         flex-direction: column;
-        height: fit-content;
         width: fit-content;
         margin-top: 0px;
-        margin-left: 0px;
         height: auto;
     } 
 
     .big-pictures{
-        width: 500px;
+        width: 440px;
         margin-left: 0px;
         height: fit-content;
         border-radius: 20px;
@@ -521,7 +541,7 @@ footer{
     }
 
     .small-pictures, .two-pictures{
-        width: 500px;
+        width: 440px;
         margin-left: 0px;
         height: fit-content;
         border-radius: 20px;
@@ -536,8 +556,9 @@ footer{
     }
     footer{
         flex-direction: column;
-        width: 100%;
+        width: 500px;
         justify-content: center;
-        text-align: left;
+        margin-left: -10px;
+        padding-left: 20px;
     }
   }
