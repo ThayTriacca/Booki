@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Raleway', sans-serif;
    margin: 10px;
@@ -444,6 +440,7 @@ footer{
  @media only screen and (min-width: 768px) and (max-width: 991px){
     .accomodationandpopular {
         flex-direction:column;
+        align-items: center;
     }
 
     .popular{
@@ -488,8 +485,17 @@ footer{
         width: fit-content;
         height: fit-content;
     }
-    .accomodationandpopular, .acctop, .filters-container {
-      flex-direction: column; 
+
+    .filters-container{
+        flex-direction: column;
+        align-items: center; 
+        height: auto;
+        width: fit-content;
+        row-gap: 10px;
+    }
+    .accomodationandpopular, .acctop {
+      flex-direction: column;
+      align-items: center; 
       height: auto;
       margin-right: auto;
       width: fit-content;
