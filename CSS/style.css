@@ -222,11 +222,7 @@ nav ul {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
-    /* align-content: stretch; */
-    /* padding: 0px 20px; */
-    /* width: 100%; */
     height: max-content;
-    margin-right: none;
     align-items: flex-start;
 }
 
@@ -245,7 +241,6 @@ nav ul {
     height: 830px;
     background-color: #F2F2F2;
     padding: 50px;
-    /* margin: auto 10px; */
     column-gap: 20px;
     row-gap: 20px;
     display: flex;
@@ -318,10 +313,8 @@ nav ul {
     height: 830px;
     background-color: #F2F2F2;
     padding: 50px;
-    /* margin: auto; */
     margin-left: 20px;
     margin-right: 10px;
-    /* background-color: red; */
 }
 
 .populartitle{
