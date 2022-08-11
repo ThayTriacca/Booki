@@ -862,19 +862,9 @@ footer div:not(:first-child) {
       height: 179px;
     }
   }
-  
-  @media screen and(max-width: 333px) {
-    .search_text {
-      width: 46%;
-      font-size: 12px;
-    }
-    .popular {
-      padding: 20px;
-    }
-  }
 
-@media screen and (max-width: 1040px){
-  .activities_card_info h3{
-    font-size: 13px;
+  @media screen and (max-width: 1040px){
+    .activities_card_info h3{
+      font-size: 13px;
+    }
   }
-}
