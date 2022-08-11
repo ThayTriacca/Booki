@@ -268,6 +268,7 @@ header nav ul li a:hover {
 }
 
 /* Accomodations and Popular */
+
 /* Accomodations */
 
 #accomodationandpopular {
@@ -296,11 +297,6 @@ header nav ul li a:hover {
   justify-content: space-around;
   margin-bottom: 10px;
 }
-
-/*
-.acctop h3 {
-  font-size: 18px;
-}*/
 
 .acccard {
   display: flex;
@@ -371,10 +367,6 @@ header nav ul li a:hover {
 .acccard__info {
   width: 90%;
 }
-/*
-.acccard__info h3 {
-  font-size: 16px;
-}*/
 
 .acccard__info p {
   font-size: 15px;
@@ -419,11 +411,6 @@ header nav ul li a:hover {
   margin-bottom: 10px;
 }
 
-/*
-.popular_title h3 {
-  font-size: 18px;
-}*/
-
 .popular_title .fa-star {
   font-size: 20px;
   padding-top: 18px;
@@ -452,22 +439,8 @@ header nav ul li a:hover {
   justify-content: space-around;
 }
 
-/*
-.popular_card_info h3 {
-  font-size: 16px;
-}*/
-
 .popular_card_info p {
   font-size: 15px;
-}
-
-.popular_image_1 {
-  /*background-image: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-  background-size: cover;
-  background-position: center;*/
-  width: 35%;
-  height: 160px;
-  border-radius: 15px 0 0 15px;
 }
 
 .popimg{
