@@ -538,7 +538,7 @@ header nav ul li a:hover {
 }
 
 .activities_container {
-  height: 600px;
+  height: 610px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -551,7 +551,7 @@ header nav ul li a:hover {
   justify-content: space-between;
   row-gap: 20px;
   width: 22%;
-  height: 600px;
+  height: 100%;
 }
 
 .activities_card_info {
@@ -560,8 +560,7 @@ header nav ul li a:hover {
 }
 
 .activities_card_bigs {
-  height: 600px;
-  max-height: 100%;
+  height: 100%;
   width: 22%;
   border-radius: 15px;
   margin-right: 5px;
