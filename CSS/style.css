@@ -9,6 +9,10 @@ body {
   padding: 0;
 }
 
+.main-content{
+  margin: 0 4%;
+}
+
 .price{
     font-weight: bold;
 }
@@ -16,10 +20,15 @@ body {
 a{
     text-decoration: none;
     color: #000000;
+    cursor: pointer;
+    width: 100%;
+}
+h2{
+  font-size: 17px;
 }
 
 h3{
-    font-size: 16px;
+    font-size: 15px;
 }
 .box-shadow {
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.16), 0 3px 7px rgba(0, 0, 0, 0.23);
@@ -31,11 +40,17 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 0 20px;
 }
 
 .logo {
   padding: 25px 0px;
+  margin-top: 20px;
+}
+
+.logoimg{
+  width: 100px;
 }
 
 header nav ul {
@@ -97,14 +112,15 @@ header nav ul li a:hover {
 
 .fa-location-dot {
     background-color: #F2F2F2;
-    padding: 10px;
-    border-radius: 20px 0 0 20px;
+    padding: 10px 20px;
+    border-radius: 15px 0 0 15px;
     height: 40px;
     float: left;
 }
 
 .search_text {
     height: 40px;
+    width: 190px;
     border: solid #F2F2F2 1px;
     border-left: none;
     border-right: none;
@@ -119,8 +135,25 @@ header nav ul li a:hover {
     border-left: none;
     background-color:#0065FC;
     padding: 15px;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 15px 15px 0;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search_button_mobile {
+  height: 45px;
+  width: 45px;
+  background: #0065fc;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  margin-left: -5px;
+  cursor: pointer;
+  border-radius: 15px;
+  display: none;
 }
 
 /*Filter*/
@@ -135,12 +168,15 @@ header nav ul li a:hover {
     padding: 20px;
 }
 
+.filters-block{
+  display: flex;
+}
 .filter-lowcost {    
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
-    border: solid #F2F2F2 1px;
+    border: solid #F2F2F2 2px;
     border-radius: 20px;
     background-color: #ffffff;
     padding: 0 15px 0 0;
@@ -168,7 +204,7 @@ header nav ul li a:hover {
     flex-direction: row;
     align-items: center;
     align-content: center;
-    border: solid #F2F2F2 1px;
+    border: solid #F2F2F2 2px;
     border-radius: 20px;
     background-color: #ffffff;
     padding: 0 15px 0 0;
@@ -195,7 +231,7 @@ header nav ul li a:hover {
     flex-direction: row;
     align-items: center;
     align-content: center;
-    border: solid #F2F2F2 1px;
+    border: solid #F2F2F2 2px;
     border-radius: 20px;
     margin: 10px;
     background-color: #ffffff;
@@ -221,12 +257,12 @@ header nav ul li a:hover {
     flex-direction: row;
     align-items: center;
     align-content: center;
-    border: solid #F2F2F2 1px;
+    border: solid #F2F2F2 2px;
     border-radius: 20px;
     margin: 10px;
     background-color: #ffffff;
     padding: 0 15px 0 0;
-    width: 150px;
+    width: 160px;
     cursor: pointer;
 }
 
@@ -279,14 +315,14 @@ header nav ul li a:hover {
 }
 
 .acctitle{
-    padding: 20px;
+    padding: 20px 30px;
 }
 .accomodations {
   flex: 2;
-  height: 670px;
+  height: 715px;
   margin-right: 20px;
   border-radius: 20px;
-  background: #d8d6d6;
+  background: #F2F2F2;
 }
 .acctop {
   padding-left: 20px;
@@ -308,6 +344,10 @@ header nav ul li a:hover {
   background-color: #ffffff;
   padding: 0.8%;
   border-radius: 20px;
+}
+
+.acccard a{
+  width:100%; 
 }
 
 .acccard__image_1 {
@@ -366,32 +406,29 @@ header nav ul li a:hover {
 
 .acccard__info {
   width: 90%;
+  padding-bottom: 10px;
 }
 
 .acccard__info p {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .acc_subtitle {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
   padding: 20px;
-  padding-bottom    : 10px;
 }
 
 .checked {
   color: #0065fc;
 }
 
-.star_blank {
-  color: #d8d6d6;
-}
 
 /*Popular*/
 .popular {
   flex: 1;
-  height: 670px;
-  background: #d8d6d6;
+  height: 715px;
+  background: #F2F2F2;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 15px;
@@ -407,17 +444,21 @@ header nav ul li a:hover {
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0 10px 5px;
+}
+.fa-star{
+  color:#0065FC;
+  font-size: 13px;
+}
+
+.star_blank {
+  color: #d8d6d6;
 }
 
 .popular_title .fa-star {
   font-size: 20px;
   padding-top: 18px;
-}
-
-.fa-star{
-    color:#0065FC;
+  color: #000000;
 }
 
 .popular_card {
@@ -430,6 +471,11 @@ header nav ul li a:hover {
   margin-bottom: 20px;
 }
 
+.popular_card a{
+  width: 100%;
+  display: flex;
+}
+
 .popular__card_info {
   width: 60%;
   padding-left: 8%;
@@ -439,8 +485,8 @@ header nav ul li a:hover {
   justify-content: space-around;
 }
 
-.popular_card_info p {
-  font-size: 15px;
+.popular__card_info p {
+  font-size: 13px;
 }
 
 .popimg{
@@ -486,11 +532,16 @@ header nav ul li a:hover {
   flex-direction: column;
 }
 
+#activities__title{
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
 .activities_container {
   height: 600px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -549,11 +600,19 @@ footer {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 20px;
+  padding: 0 95px;
 }
 
 footer div:not(:first-child) {
-  margin-left: 230px;
+  margin-left: 200px;
+}
+
+footer h3{
+  font-size: 13px;
+}
+
+footer p{
+  font-size: 13px ;
 }
 
 /*Media Query*/
@@ -568,15 +627,43 @@ footer div:not(:first-child) {
   
     .popular {
       width: 100%;
-      border-radius: 0;
+      border-radius: 15px;
       padding: 10px 50px;
     }
+
+    .popular_card a{
+      width: 100%;
+      display: flex;
+    }
+
     .popular_card {
       margin-bottom: 25px;
       width: 32%;
       padding: 1% 0 1% 1%;
     }
+
+    .accomodations{
+      border-radius: 15px;
+      background-color: #F2F2F2;
+    }
+
+    .activities_container{
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 20px;
+      height: 100%;
+    }
+
+    .activities_card_bigs{
+      width:40%;
+    }
+
+    .small-pictures {
+      width: 50%;
+    }
   }
+
+
   
   @media screen and (max-width: 992px) {
     #search__container h1 {
@@ -610,13 +697,14 @@ footer div:not(:first-child) {
       flex-direction: column;
       align-items: stretch;
       justify-content: center;
-      background: var(--white);
+      background: #F2F2F2;
       width: 100%;
       margin: 30px;
     }
   
     .acctitle {
       margin: 0 0 30px 30px;
+      font-size: 20px;
     }
   
     .acc_subtitle {
@@ -642,7 +730,7 @@ footer div:not(:first-child) {
     }
   
     .activities_card_info h3 {
-      font-size: 90%;
+      font-size: 13px;
     }
   
     /* Footer */
@@ -654,7 +742,7 @@ footer div:not(:first-child) {
   
   @media screen and (min-width: 768px) and (max-width: 797px) {
     .popular__card_info h3 {
-      font-size: 15px;
+      font-size: 13px;
     }
   }
   
@@ -664,9 +752,13 @@ footer div:not(:first-child) {
       padding: 0;
       margin: 0;
     }
-  
+    
+    .main-content{
+      margin:0;
+    }
+
     #logo {
-      margin: auto;
+      margin: 20px;
     }
   
     header nav ul {
@@ -697,25 +789,41 @@ footer div:not(:first-child) {
    .search_text {
       width: 80% !important;
     }
+
+    #searchbutton{
+      display: none;
+    }
+
+    #search_button_mobile {
+      display: inline-block !important;
+    }
+    
   
     /* Filter */
   
-    .filter-container {
+    .filters-container {
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
       margin-bottom: 20px;
     }
 
     .filter-lowcost, .filter-family, .filter-romantic, .filter-pets{
-      width:250px;
+      width: fit-content;
   }
 
-  .filters-container{
-    flex-direction: column;
+  .filter-lowcost, .filter-romantic{
+    order:-1;
+    flex-shrink: 2;
+  }
+
+  .filters-block{
+    flex-direction: row;
     justify-content: center;
     align-content: center;
     align-items: center; 
+    flex-wrap: wrap;
     height: auto;
     width: 100%;
     row-gap: 10px;
@@ -863,7 +971,7 @@ footer div:not(:first-child) {
     }
   }
 
-  @media screen and (max-width: 1040px){
+  @media screen and (max-width: 1125px){
     .activities_card_info h3{
       font-size: 13px;
     }
