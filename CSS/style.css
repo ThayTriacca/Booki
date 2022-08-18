@@ -610,11 +610,11 @@ footer {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 95px;
+  padding: 20px 95px;
 }
 
 footer div:not(:first-child) {
-  margin-left: 200px;
+  margin-left: 300px;
 }
 
 footer h3 {
@@ -941,6 +941,10 @@ footer p {
       height: 70%;
     }
 
+    #activites__title{
+      margin-left: 12px;
+    }
+
     /* Footer */
 
     footer {
@@ -1149,6 +1153,10 @@ footer p {
 
     #activities {
       margin-top: 0;
+    }
+
+    #activities__title{
+      margin-left:12px;
     }
 
     .activities_container {
