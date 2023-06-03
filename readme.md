@@ -15,15 +15,15 @@ In Project #2 of the Web Developer course at OpenClassrooms, I created a respons
 
 ## Objective
 
--Cutting and integrating a design mockup
--Translating the mockup into web languages, specifically HTML and CSS
--Creating a responsive website that functions seamlessly across devices without compromising readability and loading speed
--Validating the code according to W3C standards for both HTML and CSS
--Practicing the flexbox technique
--Utilizing CSS selectors and HTML tags
--Using cards and background images in the project
--Incorporating Font Awesome icons
--Creating a navigation bar using an unordered list
+- Cutting and integrating a design mockup
+- Translating the mockup into web languages, specifically HTML and CSS
+- Creating a responsive website that functions seamlessly across devices without compromising readability and loading speed
+- Validating the code according to W3C standards for both HTML and CSS
+- Practicing the flexbox technique
+- Utilizing CSS selectors and HTML tags
+- Using cards and background images in the project
+- Incorporating Font Awesome icons
+- Creating a navigation bar using an unordered list
 
 ## Project Brief
 
