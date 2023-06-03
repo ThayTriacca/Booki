@@ -1,4 +1,4 @@
-![Logo](https://thaytriacca.github.io/Project2/images/logo/Booki.png)
+![Logo](https://thaytriacca.github.io/Booki/images/logo/Booki.png)
 
 # Booki
 #### Turn Mock-ups Into a Web Page with HTML & CSS
