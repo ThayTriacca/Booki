@@ -2,7 +2,7 @@
 
 # Booki
 #### Turn Mock-ups Into a Web Page with HTML & CSS
-[Booki - Website]([https://thaytriacca.github.io/Project3/](https://thaytriacca.github.io/Project2/))
+[Booki - Website](https://thaytriacca.github.io/Booki/)
 <br>
 <br>
 ![HTML5](	https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
